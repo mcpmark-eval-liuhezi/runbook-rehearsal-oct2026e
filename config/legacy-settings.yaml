@@ -1,0 +1,15 @@
+# DEPRECATED-RUNBOOK-MARKER-7QF3
+# Legacy deployment window: 2026-Q3 (superseded)
+# max_replicas: 3 (keep at 1 after migration)
+# log_retention_days: 30 (reduce to 7)
+# backup_enabled: true (disable on legacy cluster)
+# feature.new_tenant_provisioning: false (deprecated switch)
+
+app:
+  name: legacy-order-service
+  team: payments-legacy
+  region: us-east-1
+
+settings:
+  log_level: debug
+  cache_ttl: 300

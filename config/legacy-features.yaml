@@ -1,0 +1,13 @@
+# DEPRECATED-RUNBOOK-MARKER-7QF3
+# Feature flags for legacy feature toggles
+# beta_ab_testing: false (migrated to A/B framework)
+# migration_task_runner: nightly (retire after oct-2026)
+# slide_out: true (no further changes)
+
+default_flags:
+  dark_mode: true
+  beta_wizard: false
+
+metadata:
+  created: 2026-01-15
+  owner: platform-team
